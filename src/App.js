@@ -5,6 +5,7 @@ import Show from "./components/Show"
 import Maths from "./components/Maths"
 import MyForm from "./components/MyForm"
 import PropDrilling from "./components/PropDrilling"
+import Context from "./components/Context"
 import Fetching from "./components/Fetching"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <h1>Jan</h1>
       <Fetching />
       <PropDrilling />
+      <Context />
       <MyForm />
       <Maths />
       <Show show={show} />
