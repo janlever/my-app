@@ -1,34 +1,28 @@
+import { useState } from "react"
 import "./App.css"
-import Hello from "./components/Hello"
+import Toggle from "./components/Toggle"
+import Show from "./components/Show"
 import Maths from "./components/Maths"
-import Jan from "./components/Jan"
+import MyForm from "./components/MyForm"
+import PropDrilling from "./components/PropDrilling"
+import Fetching from "./components/Fetching"
 
 function App() {
+  const [show, setShow] = useState(true)
+
+  const toggleShow = () => setShow(previousShow => !previousShow)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <Jan />
-        <Maths />
-        <Maths />
-        <Maths />
-      </header>
+    <div className="Container">
+      <h1>Jan</h1>
+      <Fetching />
+      <PropDrilling />
+      <MyForm />
+      <Maths />
+      <Show show={show} />
+      <Toggle toggleShow={toggleShow} />
     </div>
   )
 }
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <Maths />
-//         {/* <Hello name="jan" />
-//         <Hello
-//           name="torbik"
-//           age={20}
-//         /> */}
-//       </header>
-//     </div>
-//   )
-// }
 
 export default App

@@ -1,5 +1,8 @@
 Project react app I`m working on: https://github.com/janlever/my-app
 
+MY COMMITS:
+27.09 - https://github.com/janlever/my-app/commit/d350bf4b04ccbe386a97c6db2b4ab8db6c93b846 ; updated my react page according to 27.09 homework, added math component
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
