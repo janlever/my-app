@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Project react app I`m working on:
+
+//prettiercc configi seletus
+
+{
+"semi": false, - ei pea lõpetama rida ; kui väärtus on false
+"tabWidth": 2, - indent laius on 2 tühikut, igat plokki nihutatakse 2 võrra paremale
+"printWidth": 80, - rea maksimaalne pikkus 80 tähemärki
+"singleQuote": false, - üksikud jutumärgid ei ole kohustuslikud võib kasutada nii ' kui ka ""
+"jsxSingleQuote": false, - sama mis eelmine aga kehtib ainult JSX koodis
+"bracketSpacing": true, - Objekti ja array sulgude ümber peab olema tühik
+"bracketSameLine": false, -määrab kas objekti sulud on samal real kui objekti deklareerimine, väärtuse false korral sulud uuele reale
+"trailingComma": "none", - komasid ei lubata objekti ja array viimase elemendina
+"arrowParens": "avoid", - Arrowfuncide sulgudega, lisatakse kui on enam kui üks argument
+"singleAttributePerLine": true - määrab kas iga html elemendi atribuut eraldatakse uue reaga v mitte.
+}
